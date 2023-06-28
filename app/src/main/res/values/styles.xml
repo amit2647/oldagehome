@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="btnSolidRounded">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_900_radius_6</item>
+    </style>
+    <style name="txtLoraromansemibold24">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/lora</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStyleamber_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_amber_100_radius_10</item>
+    </style>
+    <style name="txtLoraromansemibold20_1">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/black_900</item>
+        <item name="android:fontFamily">@font/lora</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylelight_green_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_light_green_100_radius_10</item>
+    </style>
+    <style name="groupStyleindigo_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_indigo_100_radius_10</item>
+    </style>
+    <style name="groupStylepink_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_pink_100_radius_10</item>
+    </style>
+    <style name="txtIntermedium14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/black_900_7f</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtIntersemibold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtLoraromansemibold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/lora</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStyleamber_101cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_amber_101_radius_10</item>
+    </style>
+    <style name="groupStylepurple_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_purple_100_radius_10</item>
+    </style>
+    <style name="txtLoraromansemibold24_1">
+        <item name="android:textSize">@dimen/_24pxh</item>
+        <item name="android:textColor">@color/black_900_bf</item>
+        <item name="android:fontFamily">@font/lora</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylewhite_A700">
+        <item name="android:background">@drawable/rectangle_bg_white_a700</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Other style attributes -->
+    </style>
+    <style name="groupStylebluegray_100cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_100_radius_53</item>
+    </style>
+
+    <style name="txtArialboldmt13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/black_900_a2</item>
+        <item name="android:fontFamily">@font/arial</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtLoraromanbold19">
+        <item name="android:textSize">@dimen/_19pxh</item>
+        <item name="android:textColor">@color/bluegray_900</item>
+        <item name="android:fontFamily">@font/lora</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+
+    <style name="AppTheme.PageActivity" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Other style attributes specific to your activity -->
+    </style>
+</resources>

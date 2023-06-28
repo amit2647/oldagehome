@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AdminLoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center_horizontal"
+        android:id="@+id/toolbarToolbar"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_13pxh"
+        android:layout_marginStart="@dimen/_13pxh"
+        android:layout_marginTop="@dimen/_20pxh"
+        android:layout_width="match_parent" app:contentInsetStart="0dp">
+
+
+            <TextView
+                android:id="@+id/txtHeaderLabel"
+                style="@style/txtLoraromansemibold24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.77"
+                android:text="Admin Login" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--edit text for user name-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILUserName1"
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter User Name"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtUserName1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--edit text for password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/idTILPassword1"
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTILUserName1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter your Password"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        app:hintTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtPassword1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--button for login-->
+    <Button
+        android:id="@+id/idBtnLogin1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTILPassword1"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@color/amber_101"
+        android:text="Login"
+        android:textAllCaps="false"
+        />
+</RelativeLayout>

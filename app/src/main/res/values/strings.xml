@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Firebase CRUD app</string>
+    <string name="enter_user_name">Enter User Name</string>
+    <string-array name="dropdown_options">
+        <item>Donation</item>
+        <item>Volunteer</item>
+        <item>Other</item>
+    </string-array>
+    <string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_donations">Donations</string>
+    <string name="lbl_cloths">Cloths</string>
+    <string name="lbl_know_more">Know More</string>
+    <string name="lbl_vegetables">Vegetables</string>
+    <string name="lbl_basic_needs">Basic Needs</string>
+    <string name="lbl_our_moto">Our Moto</string>
+    <string name="lbl_donate_money">Donate Money</string>
+    <string name="lbl_grocery">Grocery</string>
+    <string name="lbl_old_age_home">Old Age Home</string>
+    <string name="msg_morem_ipsum_dol">Morem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</string>
+    <string name="lbl_donate_food">Donate Food</string>
+    <string name="lbl_medicine">Medicine</string>
+    <string name="medicine">Medicine</string>
+    <string name="vegetable">Vegetable</string>
+    <string name="grossory">Grossory</string>
+    <string name="cloths">Cloths</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_contact_us">Contact Us</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_adam_richmond">Adam Richmond</string>
+    <string name="lbl_edit_profile">Edit Profile</string>
+    <string name="lbl_gallery">Gallery</string>
+    <string name="lbl_videos">Videos</string>
+
+</resources>

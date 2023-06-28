@@ -1,0 +1,76 @@
+<!-- activity_course_details.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textviewCourseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Course Name" />
+
+    <TextView
+        android:id="@+id/textviewCourseAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCourseName"
+        android:textSize="16sp"
+        tools:text="Course Address" />
+
+    <TextView
+        android:id="@+id/textviewCourseContactNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCourseAddress"
+        android:textSize="16sp"
+        tools:text="Contact Number" />
+    <TextView
+        android:id="@+id/textviewCoursePanNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCourseContactNo"
+        android:textSize="16sp"
+        tools:text="Pan Number" />
+    <TextView
+        android:id="@+id/textviewCourseAadharNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCoursePanNo"
+        android:textSize="16sp"
+        tools:text="Aadhar Numnber" />
+    <TextView
+        android:id="@+id/textviewCourseDateofBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCourseAadharNo"
+        android:textSize="16sp"
+        tools:text="Date of Birth" />
+    <TextView
+        android:id="@+id/textviewCourseOccasion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCourseDateofBirth"
+        android:textSize="16sp"
+        tools:text="Occasion" />
+    <TextView
+        android:id="@+id/textviewCourseGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCourseOccasion"
+        android:textSize="16sp"
+        tools:text="Gender" />
+    <TextView
+        android:id="@+id/textviewCoursePurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textviewCourseGender"
+        android:textSize="16sp"
+        tools:text="Purpose" />
+
+    <!-- Add other TextViews for displaying other course details -->
+
+</RelativeLayout>

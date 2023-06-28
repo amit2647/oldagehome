@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp"
+    tools:context=".AddEntryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:gravity="center_horizontal"
+        android:id="@+id/toolbarToolbar"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_13pxh"
+        android:layout_marginStart="@dimen/_13pxh"
+        android:layout_width="match_parent" app:contentInsetStart="0dp">
+
+
+        <TextView
+            android:id="@+id/txtHeaderLabel"
+            style="@style/txtLoraromansemibold24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.77"
+            android:text="Registration Form" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/name"
+        android:hint="Name"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtCourseName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textImeMultiLine|textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/address"
+        android:hint="Address"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtCourseAdress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textImeMultiLine|textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/contactNo"
+        android:hint="Contact No"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtCourseContact"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textImeMultiLine|textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/panNumberEditText"
+        android:hint="Pan number"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtCoursePan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textImeMultiLine|textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/aadhaarNumberEditText"
+        android:hint="Aadhar number"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtCourseAadhar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textImeMultiLine|textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/dateOfBirth"
+        android:hint="Date of birth"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtCourseDob"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextInputLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/dateOfAnniversary"
+        android:hint="Occasion"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdtCourseDoa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textImeMultiLine|textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <CheckBox
+        android:id="@+id/maleCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/black"
+        android:text="Male" />
+
+    <CheckBox
+        android:id="@+id/femaleCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        android:text="Female" />
+
+    <TextView
+        android:id="@+id/idTVPurpose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idRGGender"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Purpose"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+    <Spinner
+        android:id="@+id/idSpinnerPurpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVPurpose"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@color/black" />
+
+
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="Register"
+        android:backgroundTint="@color/amber_101"
+        android:textColor="@color/black"/>
+
+
+</LinearLayout>
