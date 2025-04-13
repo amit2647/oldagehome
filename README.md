@@ -1,5 +1,5 @@
 # oldagehome
-The app designed for NEO is a helpful tool for old people. It utilizes Firebase for user registration and incorporates various features to enhance the user experience. Here is an overview of the app's functionalities:
+The app designed for NGO is a helpful tool for old people. It utilizes Firebase for user registration and incorporates various features to enhance the user experience. Here is an overview of the app's functionalities:
 
   User Registration: The app allows users to register themselves by providing necessary details such as name, contact information, and possibly age-related information. This registration process helps in identifying and managing the users within the system.
 
